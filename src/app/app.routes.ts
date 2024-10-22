@@ -5,5 +5,5 @@ import { CreateEmployeeComponent } from './create-employee/create-employee.compo
 export const routes: Routes = [
     {path: 'employees', component: EmployeeListComponent},
     {path: 'create-employee', component: CreateEmployeeComponent},
-    {path: '', redirectTo: 'employees', pathMatch: 'full'}
+    {path: '', redirectTo: '/employees', pathMatch: 'full'}
 ];
